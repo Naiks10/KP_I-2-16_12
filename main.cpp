@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     Connection mainConnection;
     mainConnection.connect(
                 "localhost",
-                "wbase",
+                "dbase",
                 "postgres",
                 "09102000"
              );
