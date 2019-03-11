@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
                 "postgres",
                 "09102000"
              );
-    q->orders->setQuery("SELECT ID_COUNTRY AS Код, COUNTRY_NAME AS Страна FROM COUNTRY", 0);
     Login::login("admin", "123");
     engine.rootContext()->setContextProperty("_model", q->orders);
     return app.exec();
