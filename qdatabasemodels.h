@@ -10,10 +10,10 @@ class QDatabaseModels : public QObject
     Q_OBJECT
 public:
      QDatabaseModels();
-     SqlQueryModel* orders = new SqlQueryModel(0, "SELECT ID_COUNTRY AS Код, COUNTRY_NAME AS Страна FROM COUNTRY" );
+     SqlQueryModel* orders = new SqlQueryModel(0, "SELECT COUNTRY_NAME AS Страна FROM COUNTRY" );
      SqlQueryModel* customer = new SqlQueryModel(0, "SELECT * FROM CUSTOMER" );
 public slots:
-     static  void updateTableOrders();
+     static void updateTableOrders();
 
 };
 

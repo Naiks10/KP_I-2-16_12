@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
                 "postgres",
                 "09102000"
              );
+    QDatabaseModels* q = new QDatabaseModels();
     Login::login("admin", "123");
     engine.rootContext()->setContextProperty("_model", q->orders);
     return app.exec();

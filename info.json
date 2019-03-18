@@ -1,0 +1,13 @@
+{ "info": {
+    "buttons":[
+    {
+        "name": "addOrder",
+        "description": "Организация нового заказа"
+    },
+    {
+        "name": "editOrder",
+        "description": "Изменение состава существующего заказа"
+    }
+]
+}
+}

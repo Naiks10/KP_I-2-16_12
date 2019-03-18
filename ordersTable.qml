@@ -24,8 +24,11 @@ Item {
                                       id: fstCol
                                       title: role
                                       role: 'Страна'
+
+
                                     }
                                     model: _model
+
 
 
                                     style: TableViewStyle {
@@ -60,7 +63,8 @@ Item {
                                                     }
 
                                                 }
-                                                rowDelegate: Rectangle {
+
+                                                   rowDelegate:  Rectangle {
                                                     radius: 3
                                                     height: tht.implicitHeight * 1.8
                                                     width: tht.implicitWidth

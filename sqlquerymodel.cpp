@@ -7,7 +7,7 @@
 SqlQueryModel::SqlQueryModel(QObject *parent, QString query) :
     QSqlQueryModel(parent)
 {
-    //setQuery(query,0);
+    setQuery(query,0);
 }
 
 

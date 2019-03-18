@@ -54,7 +54,8 @@ DISTFILES += \
     ../DataBaseApplicationSirin/SideMenuButton.qml \
     ../DataBaseApplicationSirin/SideToolButton.qml \
     ../DataBaseApplicationSirin/TabButton.qml \
-    ../DataBaseApplicationSirin/TabControlButton.qml
+    ../DataBaseApplicationSirin/TabControlButton.qml \
+    info.json
 
 HEADERS += \
     connection.h \

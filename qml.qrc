@@ -47,5 +47,40 @@
         <file>resources/images/icons8_Left_100px.png</file>
         <file>ordersTable.qml</file>
         <file>customersTable.qml</file>
+        <file>ActionButton.qml</file>
+        <file>VaultList.qml</file>
+        <file>resources/images/addOrder.png</file>
+        <file>resources/images/addOrder1.png</file>
+        <file>resources/images/addClient.png</file>
+        <file>resources/images/deleteClient.png</file>
+        <file>resources/images/editClient.png</file>
+        <file>resources/images/editOrder.png</file>
+        <file>resources/images/abortOrder.png</file>
+        <file>resources/images/orders.png</file>
+        <file>resources/images/users.png</file>
+        <file>VaultPage.qml</file>
+        <file>PersonalPage.qml</file>
+        <file>resources/images/addDocument.png</file>
+        <file>resources/images/addZayav.png</file>
+        <file>resources/images/Archive.png</file>
+        <file>resources/images/deleteWorker.png</file>
+        <file>resources/images/editWorker.png</file>
+        <file>resources/images/workers.png</file>
+        <file>Market.qml</file>
+        <file>Cash.qml</file>
+        <file>Person.qml</file>
+        <file>MarketPage.qml</file>
+        <file>ActionHoriButton.qml</file>
+        <file>resources/images/abortDelivery.png</file>
+        <file>resources/images/addDelivery.png</file>
+        <file>resources/images/addDelivier.png</file>
+        <file>resources/images/deleteDelivier.png</file>
+        <file>resources/images/deleteProduct.png</file>
+        <file>resources/images/Deliveriers.png</file>
+        <file>resources/images/Deliveries.png</file>
+        <file>resources/images/editProduct.png</file>
+        <file>resources/images/Products.png</file>
+        <file>reader.js</file>
+        <file>PersonPage.qml</file>
     </qresource>
 </RCC>
