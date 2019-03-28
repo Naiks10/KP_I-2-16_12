@@ -68,7 +68,10 @@ Item {
                                                     radius: 3
                                                     height: tht.implicitHeight * 1.8
                                                     width: tht.implicitWidth
-                                                    color: styleData.selected ? 'SkyBlue' : (styleData.alternate ? 'Whitesmoke' : 'White')
+                                                    color: if (styleData.selected) return 'SkyBlue';
+                                                           else if (styleData.value === 'Рейх5 | Рейх5')
+                                                               return 'Red'
+                                                    else return 'Whitesmoke'//styleData.selected ? 'SkyBlue' : (styleData.alternate ? 'Whitesmoke' : 'White')
 
                                                     Text {
                                                         id: tht

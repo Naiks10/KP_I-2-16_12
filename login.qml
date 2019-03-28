@@ -56,9 +56,12 @@ Item {
                         anchors.fill: parent
                         onClicked:
                         {
-                            here.parent.source = "MainWorkSpace.qml"
-
-
+                            if (_login.login(loginEdit.textInto, password.textInto) === true)
+                                here.parent.source = "MainWorkSpace.qml"
+                            else
+                            {
+                                password.color = '#d50000'
+                            }
                         }
                     }
                 }
@@ -75,7 +78,7 @@ Item {
                         img.state = "true"
                     else img.state = "false"
                 MaterialEdit {
-                    id: login
+                    id: loginEdit
                     objectName: "Login"
                     text: "Логин"
                     textPrompt: "Заполните поле"
@@ -228,6 +231,11 @@ Item {
                 x: 620+200
                 y: 158+20
                 }
+            SexChooser {
+                x: 700
+                y: 350
+            }
+
             MaterialButton {
                 x: 1149
                 y: 751

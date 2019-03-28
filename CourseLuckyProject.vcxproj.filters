@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="authorizwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loginwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="market.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qdatabasemodels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtinyaes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlquerymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="authorizwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="loginwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="main.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="market.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="qdatabasemodels.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qtinyaes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="sqlquerymodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActionButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ActionHoriButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\Archive.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ButtonWithGlyph.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Cash.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CustomCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CustomRadioButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\Deliveriers.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\Deliveries.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\LICENSE.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\LightLogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MainWorkSpace.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Market.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MarketPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MaterialButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MaterialEdit.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Person.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PersonPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PersonalPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\Products.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Black.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-BlackItalic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Bold.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-BoldItalic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Italic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Light.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-LightItalic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Medium.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-MediumItalic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Regular.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-Thin.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\fonts\Roboto-ThinItalic.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SearchButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SexChooser.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SideMenuButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SideToolButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\SirinTitle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TabButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TabControlButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ToolButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VaultList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VaultPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="WindowButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\abortDelivery.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\abortOrder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addDelivery.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addDelivier.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addDocument.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addOrder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addOrder1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addZayav.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\box.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\close1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="customersTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\db.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\dba.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\deleteClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\deleteDelivier.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\deleteProduct.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\deleteWorker.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\editClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\editOrder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\editProduct.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\editWorker.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8-minimize-window-96.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Back_24px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Back_48px_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Back_52px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Left_100px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Squared_Menu_512px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icons8_Squared_Menu_512px_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="login.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\loginWallpaper.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loginWindow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mainWindow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\market.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\max.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\max1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\min.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\min1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\orders.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ordersTable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="reader.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\social.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\users.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\workers.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\DataBaseApplicationSirin\MainWorkSpace.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\MaterialButton.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\MaterialEdit.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\SideMenuButton.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\SideToolButton.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\TabButton.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="..\DataBaseApplicationSirin\TabControlButton.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="info.json">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

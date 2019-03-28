@@ -4,7 +4,9 @@
 
 class MainApplication : public QObject
 {
+    Q_OBJECT
 public:
+
 };
 extern QDatabaseModels* q;
 

@@ -3,27 +3,32 @@
 #include <qtinyaes.h>
 #include "main.h"
 
-void Market::addCustomer(QString firstName, QString surName, QString middleName, QString passportSerial, QString passportNumber, QString dateOfBirth, QString sex)
+void Market::addCustomer(QString firstName, QString surName, QString middleName, QString passportSerial, QString passportNumber, QString dateOfBirth, int sex)
 {
     QSqlQuery query;
-    query.prepare("CALL ADDCUSTOMER"
-                   "("
-                        ":FIRSTNAME,"
-                        ":SURNAME,"
-                        ":MIDDLENAME,"
-                        ":PASSWORDSERIAL,"
-                        ":PASSWORDNUMBER,"
-                        ":DATEOFBIRTH,"
-                        ":SEX"
-                   ")");
-    query.bindValue(":FIRSTNAME", firstName);
-    query.bindValue(":SURNAME", surName);
-    query.bindValue(":MIDDLENAME", middleName);
-    query.bindValue(":PASSWORDSERIAL", passportSerial);
-    query.bindValue(":PASSWORDNUMBER", passportNumber);
-    query.bindValue(":DATEOFBIRTH", dateOfBirth);
-    query.bindValue(":SEX", sex);
-    query.exec();
+
+//    query.prepare("CALL ADDCUSTOMER"
+//                   "("
+//                        ":FIRSTNAME,"
+//                        ":SURNAME,"
+//                        ":MIDDLENAME,"
+//                        ":PASSWORDSERIAL,"
+//                        ":PASSWORDNUMBER,"
+//                        ":DATEOFBIRTH,"
+//                        ":SEX"
+//                   ")");
+    //query.prepare("call hi();");
+
+
+//    query.bindValue(":FIRSTNAME", firstName);
+//    query.bindValue(":SURNAME", surName);
+//    query.bindValue(":MIDDLENAME", middleName);
+//    query.bindValue(":PASSWORDSERIAL", passportSerial);
+//    query.bindValue(":PASSWORDNUMBER", passportNumber);
+//    query.bindValue(":DATEOFBIRTH", dateOfBirth);
+//    query.bindValue(":SEX", sex);
+//    query.exec(QString("call addCustomer('name','name','name','1234','123456','09.10.2000',1)")
+//               .arg(""));
 }
 
 void Market::removeCustomer(QString idCustomer)

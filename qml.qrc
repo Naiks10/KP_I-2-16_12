@@ -82,5 +82,16 @@
         <file>resources/images/Products.png</file>
         <file>reader.js</file>
         <file>PersonPage.qml</file>
+        <file>WindowButton.qml</file>
+        <file>resources/images/close.png</file>
+        <file>resources/images/icons8-minimize-window-96.png</file>
+        <file>resources/images/close1.png</file>
+        <file>resources/images/max.png</file>
+        <file>resources/images/max1.png</file>
+        <file>resources/images/min.png</file>
+        <file>resources/images/min1.png</file>
+        <file>CustomCheckBox.qml</file>
+        <file>CustomRadioButton.qml</file>
+        <file>SexChooser.qml</file>
     </qresource>
 </RCC>

@@ -5,4 +5,5 @@ void Document::CreateDock()
     QAxObject* pWord = new QAxObject("Word.Application");
     QAxObject* pDock = pWord->querySubObject("Documents");
     pDock->querySubObject("Add()");
+	pWord->setProperty("Visible", true);
 }

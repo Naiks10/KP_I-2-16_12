@@ -278,6 +278,7 @@ Item {
             }
 }
 
+
     SideMenuButton {
         y: 75
         height: panel.width

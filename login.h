@@ -11,7 +11,7 @@
 class Login
 {
 public:
-    static void login(QString login, QString password);
+    static bool login(QString login, QString password);
 };
 
 #endif // LOGIN_H

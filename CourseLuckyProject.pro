@@ -2,6 +2,8 @@ QT += quick
 QT += quickcontrols2
 CONFIG += c++11
 QT += sql
+QT += winextras
+QT += axcontainer
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -32,7 +34,9 @@ SOURCES += \
     aes.c \
     sqlquerymodel.cpp \
     qdatabasemodels.cpp \
-    market.cpp
+    market.cpp \
+    document.cpp \
+    loginwindow.cpp
 
 RESOURCES += qml.qrc
 
@@ -75,4 +79,6 @@ HEADERS += \
     sqlquerymodel.h \
     qdatabasemodels.h \
     main.h \
-    market.h
+    market.h \
+    document.h \
+    loginwindow.h

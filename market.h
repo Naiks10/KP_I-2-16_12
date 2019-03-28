@@ -4,6 +4,7 @@
 #include <QSqlDatabase>
 #include <QSqlRecord>
 #include <QSqlDriver>
+#include <QSqlField>
 #include <QObject>
 #include <QString>
 
@@ -18,7 +19,7 @@ public:
         QString passportSerial,
         QString passportNumber,
         QString dateOfBirth,
-        QString sex
+        int sex
      );
    static void removeCustomer(QString idCustomer);
    static void editCustomer

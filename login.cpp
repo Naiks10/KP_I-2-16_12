@@ -5,7 +5,7 @@
 
     //QDatabaseModels q;
 
-void Login::login(QString login, QString password)
+bool Login::login(QString login, QString password)
 {
     QSqlQuery queryLogin;
     queryLogin.prepare("SELECT COUNT(*) FROM ACCOUNT "
@@ -15,5 +15,11 @@ void Login::login(QString login, QString password)
     queryLogin.bindValue(":PASSWORD", password);
     queryLogin.exec();
     queryLogin.first();
-    qDebug() << queryLogin.value(0).toString();
+    if  (queryLogin.value(0).toString() == "1")
+    {
+        return true;
+    }
+    else {
+        return false;
+    }
 }

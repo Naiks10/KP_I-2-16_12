@@ -11,6 +11,10 @@
 #include <login.h>
 #include "qdatabasemodels.h"
 #include "main.h"
+#include <QAxObject>
+#include "document.h"
+#include "market.h"
+#include "loginwindow.h"
 
 
 int main(int argc, char *argv[])
@@ -28,8 +32,11 @@ int main(int argc, char *argv[])
                 "postgres",
                 "09102000"
              );
+    LoginWindow* lgnW = new LoginWindow(root);
+    engine.rootContext()->setContextProperty("_login", lgnW);
     QDatabaseModels* q = new QDatabaseModels();
-    Login::login("admin", "123");
     engine.rootContext()->setContextProperty("_model", q->orders);
+    Document::CreateDock();
     return app.exec();
+	//1
 }
